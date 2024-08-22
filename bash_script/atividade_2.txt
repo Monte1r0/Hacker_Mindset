@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+echo "=============== Aula 4 ================"
+echo
+echo "usuario:" $(whoami)
+echo "hostname:" $(hostname)
+echo "SO:" $(uname)
+echo "Pash:" $(pwd)
+echo
+echo
+echo "=================BASH SCRIPT===================="
+
+
+
+=================================================================================================================================================
+
+Esse script Bash exibe informações sobre o ambiente de execução e inclui algumas mensagens formatadas. Aqui está um resumo do que ele faz:
+
+1. Imprime a linha "=============== Aula 4 ================" como um título.
+2. Imprime uma linha em branco.
+3. Exibe o nome do usuário atual (`whoami`).
+4. Exibe o nome do host do sistema (`hostname`).
+5. Mostra o tipo de sistema operacional (`uname`).
+6. Exibe o diretório de trabalho atual (`pwd`).
+7. Imprime duas linhas em branco.
+8. Imprime a linha "=================BASH SCRIPT====================" como um rodapé.
+
+Esse script é uma maneira simples de mostrar informações básicas do sistema de uma forma organizada e formatada.
+
+=================================================================================================================================================

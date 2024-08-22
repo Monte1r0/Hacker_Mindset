@@ -1,0 +1,42 @@
+#!/usr/bin/bash
+ 
+mkdir cp_samuel
+cd cp_samuel
+echo "=== Iformações do Sistema ===
+  Sistema Operacional $(uname)
+  CPU: $(uname -i)
+  Memória Total: $()
+  Espaço em Disco Total: $()
+ 
+ 
+=== Informações do Usuário ===
+Nome do Usuário: $(whoami)"
+cd ..
+echo "Diretório Home: $(pwd)"
+cd cp_samuel
+echo "Diretório Atual: $(pwd)
+Usuários Logados: $(id -un)"
+
+
+
+=================================================================================================================================================
+
+Este script Bash realiza algumas operações de criação de diretórios, navegação entre diretórios, e exibe informações sobre o sistema e o usuário. Aqui está um resumo do que ele faz:
+
+1.  Criação de diretório e navegação:
+   - Cria um diretório chamado `cp_samuel`.
+   - Entra no diretório `cp_samuel` usando `cd`.
+
+2.  Exibição de informações do sistema:
+   - Usa o comando `uname` para obter e exibir o nome do sistema operacional e a arquitetura da CPU.
+   - As linhas para mostrar a "Memória Total" e "Espaço em Disco Total" estão incompletas e precisam de comandos específicos, como `free` para memória e `df` para disco.
+
+3.  Exibição de informações do usuário
+   - Usa o comando `whoami` para exibir o nome do usuário atual.
+
+4.  Navegação entre diretórios
+   - Volta ao diretório anterior (`..`) e exibe o diretório home atual usando `pwd`.
+   - Retorna ao diretório `cp_samuel` e exibe o diretório atual novamente.
+   - Exibe o nome do usuário logado utilizando `id -un`.
+
+=================================================================================================================================================

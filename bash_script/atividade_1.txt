@@ -1,0 +1,28 @@
+#!/usr/bin/bash
+mkdir samuel
+mkdir samuel/defesa_cibernetica
+mkdir samuel/defesa_cibernetica/hacker_mindset
+touch samuel/defesa_cibernetica/hacker_mindset/notas_1.txt
+mkdir samuel/defesa_cibernetica/linux
+touch samuel/defesa_cibernetica/linux/notas_2.txt
+mkdir samuel/defesa_cibernetica/redes
+touch samuel/defesa_cibernetica/redes/notas_3.txt
+echo "hoje é dia 4/4/2024" > samuel/defesa_cibernetica/hacker_mindset/notas_1.txt
+echo "ontem foi dia 3/4/2024" > samuel/defesa_cibernetica/linux/notas_2.txt
+echo "amanha é dia 5/4/2024" > samuel/defesa_cibernetica/redes/notas_3.txt
+
+
+
+=================================================================================================================================================
+
+Esse script Bash automatiza a criação de diretórios e arquivos, e adiciona conteúdo aos arquivos criados. Aqui está um resumo do que ele faz:
+
+1. Cria um diretório chamado `samuel`.
+2. Dentro do diretório `samuel`, cria um subdiretório chamado `defesa_cibernetica`.
+3. Dentro de `defesa_cibernetica`, cria três subdiretórios: `hacker_mindset`, `linux` e `redes`.
+4. Cria arquivos de texto vazios (`notas_1.txt`, `notas_2.txt`, `notas_3.txt`) dentro de cada subdiretório correspondente.
+5. Adiciona texto específico a cada um dos arquivos criados, com datas diferentes, usando o comando `echo`.
+
+Esse script é útil para organizar material de estudo, separando tópicos em diretórios e registrando notas em arquivos de texto. 
+
+=================================================================================================================================================
