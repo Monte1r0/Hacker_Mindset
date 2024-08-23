@@ -3,6 +3,7 @@ import requests
 url_base = "youtube.com"  # URL base sem o prefixo 'www.'
 
 def fetch_data(request_url):
+    import ipdb;ipdb.set_trace()
     try:
         response = requests.get(request_url)
         if response.status_code == 200:
@@ -16,10 +17,12 @@ def fetch_data(request_url):
             #     print(f"A resposta não é JSON: {response.text}")
             #     return None
         else:
-            print(f'Erro: {response.status_code}')
+            print(f'Erro: {(full_url)}')
+            # print(f'Erro: {response.status_code}')
             return None
     except requests.exceptions.RequestException as e:
-        print(f'Ocorreu um erro: {e}')
+        print(f'Ocorreu um erro: {(full_url)}')
+        # print(f'Ocorreu um erro: {e}')
         return None
 
 with open("test2.txt", "r") as arquivo:
