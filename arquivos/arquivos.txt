@@ -1,0 +1,11 @@
+/bin/bash
+/bin/sh
+/bin/ls
+/bin/cat
+/bin/mkdir
+/bin/rm
+/bin/mv
+/bin/echo
+/bin/grep
+/bin/ps
+

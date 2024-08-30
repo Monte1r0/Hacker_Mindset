@@ -1,8 +1,8 @@
 import requests
 
 paths_validos = []
-url_base = "https://www.facebook.com.br"
-
+url_base = "https://www.youtube.com"
+import ipdb;ipdb.set_trace()
 def fetch_data(request_url):
     try:
         response = requests.get(request_url)

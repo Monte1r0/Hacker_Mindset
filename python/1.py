@@ -5,4 +5,3 @@ with open ("test.txt", "r") as arquivo:
             print(f'senha: {linha.strip()}')
         else:
             break
-    
